@@ -145,7 +145,7 @@ namespace TestProjrct.infrastructure.Services
                     }
                     if (money == 4)
                     {
-                        Console.WriteLine($"You have {amount} cent in cash back slot, pls take it");
+                        Console.WriteLine($"You have {amount}$ in cash back slot, pls take it");
                         return 0;
                     }
                     Console.WriteLine("Checking if the note is USD ... Done!");

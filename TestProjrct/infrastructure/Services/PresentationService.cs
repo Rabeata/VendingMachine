@@ -38,7 +38,7 @@ namespace TestProjrct.infrastructure.Services
                                 Color = snack.Count > 0 ? ConsoleColor.DarkCyan : ConsoleColor.DarkRed,
                                 TextAlign = TextAlign.Center
                             }
-                            .AddChildren($"##{(snack.Count > 0 ? snack.Id : 0 )}## ")
+                            .AddChildren($"##{snack.Id}## ")
                             .AddChildren($"\n {snack.Name}")
                             .AddChildren($"\n (Price: {snack.Price}$)")
                             .AddChildren($"\n (Count: {snack.Count})")

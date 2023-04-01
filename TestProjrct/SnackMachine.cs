@@ -13,7 +13,6 @@ namespace TestProjrct
         private static readonly IPresentationService PresentationService = new PresentationService();
         private static VendingMachines VendingMachines = new VendingMachines();
 
-        [Obsolete]
         public static void Main(string[] args)
         {
             Console.WriteLine("Vending Machines is running");
